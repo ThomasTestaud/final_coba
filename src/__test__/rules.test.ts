@@ -1,6 +1,7 @@
 import { isCombinationValid, transformStringsIntoNumbers } from '../modules/rules.ts';
 import { it, expect, describe } from 'vitest';
 
+// TODO: Implement the function that resolve those tests...
 describe('transformStringsIntoNumbers', () => {
     // Test with simple dices
     describe('Test with simple dices', () => {
@@ -146,9 +147,10 @@ describe('transformStringsIntoNumbers', () => {
         });
     });
 
-
+    // TODO: Add bulk tests for with real game and data and solutions
 });
 
+// All the tests for isCombinationValid works :)
 describe('isCombinationValid', () => {
     // Test true
     it('two same arrays of one', () => {
